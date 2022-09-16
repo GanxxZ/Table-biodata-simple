@@ -1,0 +1,112 @@
+body {
+  background: rgb(170, 182, 228);
+  background: linear-gradient(90deg, rgba(170, 182, 228, 1) 0%, rgba(212, 200, 234, 1) 45%, rgba(223, 197, 228, 1) 76%, rgba(236, 141, 220, 1) 100%);
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-collapse: collapse;
+  text-decoration: none;
+  border-color: #352b47;
+  border-width: 2px;
+}
+
+thead {
+  background-color: #9932cc;
+}
+
+thead th {
+  text-transform: uppercase;
+  border-width: 2px;
+  background-color: purple;
+}
+
+tr {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+label {
+  position: absolute;
+  left: 9%;
+  transform: translate(-50%);
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.table-1 {
+  line-height: 20px;
+}
+textarea {
+  background: rgb(212, 200, 234);
+  background: linear-gradient(90deg, rgba(212, 200, 234, 1) 45%, rgba(0, 0, 0, 0) 76%);
+  border-color: rgb(93, 56, 104);
+  border-radius: 5%;
+  border-width: 2px;
+}
+
+input {
+  background: linear-gradient(90deg, rgba(212, 200, 234, 1) 45%, rgba(0, 0, 0, 0) 76%);
+  border-color: rgb(93, 56, 104);
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+input:hover {
+  border-color: blue;
+}
+
+tbody td,
+tr,
+th {
+  border-width: 2px;
+}
+
+tfoot {
+  background-color: #e6e6fa;
+}
+
+tfoot td {
+  border-width: 2px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h1 {
+  position: relative;
+  top: 35px;
+  align: center;
+  left: 39%;
+  border-bottom: 3px solid blue;
+  width: 19%;
+}
+
+@media screen and (max-width: 770px) {
+  table {
+    top: 50%;
+    left: 50%;
+  }
+  h1 {
+    position: relative;
+    top: 46px;
+    left: 20%;
+    width: 58%;
+  }
+  img {
+    width: 215px;
+    height: 220px;
+  }
+  label {
+    margin-top: -20px;
+  }
+}
